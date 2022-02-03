@@ -1,0 +1,23 @@
+.social-share {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 134px;
+  li {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      width: 25px;
+    }
+  }
+}

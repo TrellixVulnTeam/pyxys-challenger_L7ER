@@ -1,0 +1,66 @@
+@import "common/variables";
+
+/** Import theme styles */
+@import "common/global";
+@import "components/buttons";
+@import "components/social-share";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/single-conteudos";
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: cyan;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: cyan;
+}
+
+body, html {
+  overflow-x: hidden;
+  font-family: 'Rubik', sans-serif;
+}
+
+.font-zero {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.btnSlideDown {
+  animation-name: btnSlideDown;
+  animation-duration: 0.5s;
+  animation-delay: 0.8s;
+}
+
+.btnSlideUp {
+  animation-name: btnSlideUp;
+  animation-duration: 0.5s;
+  animation-delay: 0.8s;
+}
+
+@keyframes btnSlideDown {
+  100% {
+    transform: translateY(30px);
+  }
+}
+
+@keyframes btnSlideUp {
+  100% {
+    transform: translateY(0px);
+  }
+}
